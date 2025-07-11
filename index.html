@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <style>
+        .container{
+            width: 1200px;
+            margin-left: 600px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        background-image: url("image/pexels-photo-110854.avif");
+
+        }
+    .nopart{
+        margin-top:30px;
+
+    }
+            .calculation{
+            width: 300px;
+            height: 500px;
+            border: 5px dotted black;
+            border-radius: 20px;
+            margin-top: 30px;
+            margin-left: 20px;
+            background-color: antiquewhite;
+
+        }
+.input1{
+    margin-top: 30px;
+}
+        p {
+            font-size: 20px;
+            color: red;
+        }
+
+        .main {
+            width: 500px;
+            height: 500px;
+            background-color: blanchedalmond;
+            border-radius: 50%;
+            margin-top: 300px;
+        }
+
+        .red {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        .yellow {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: yellow;
+
+        }
+
+        .blue {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: blue;
+
+        }
+
+        .green {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    
+       <div class="nopart">
+    <input type="text">
+    <button>submit</button>
+    <button class="but2">colour</button>
+    <button class="but3">colour</button>
+    <button class="but4">colour</button>
+
+    <button class="butr">reset</button>
+    <h1 class="result1"></h1>
+</div>
+   
+
+
+    <div class="main">
+        <button class="red"></button>
+        <button class="yellow"></button>
+        <button class="blue"></button>
+        <button class="green"></button>
+
+
+    </div>
+  <div class="calculation">
+    <input class="input1" type="number">
+    <button onclick="handelButtton()">calculate</button>
+    <h1 class="result2"></h1>
+</div>
+ 
+
+
+
+
+<input class="input2" type="text">
+<button onclick="handelButtton()">search</button>
+<h1 class="result3"></h1>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
